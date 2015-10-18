@@ -1,0 +1,26 @@
+{
+  "name": "big-circular-data",
+  "version": "0.1.0",
+  "description": "This project ains to make a big data collection of arrival times of bus on the UFRN campus.",
+  "main": "server.js",
+  "scripts": {
+    "init": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodmentou/Big-Circular-Data.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Rodmentou",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Rodmentou/Big-Circular-Data/issues"
+  },
+  "homepage": "https://github.com/Rodmentou/Big-Circular-Data#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
