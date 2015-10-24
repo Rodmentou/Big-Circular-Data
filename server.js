@@ -30,6 +30,10 @@ api.get('/busstop/:whichStop', function (req, res) {
   res.json(places[req.params.whichStop]);
 });
 
+api.get('/me', function (req, res) {
+  res.json({success: true, message: 'You? You are beautiful. <3'});
+});
+
 api.post('/busstop/:whichStop', function (req, res) {
   var stop = req.body;
   var place = req.params.whichStop
