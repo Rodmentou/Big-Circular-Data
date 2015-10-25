@@ -22,6 +22,14 @@ app.all('*', function(req, res, next) {
 
 var api = express.Router();
 
+
+api.route('/busstop')
+.get( function (req, res) {
+
+});
+
+
+
 api.get('/', function (req, res) {
   res.send('API route working');
 });
