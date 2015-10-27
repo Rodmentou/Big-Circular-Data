@@ -30,7 +30,7 @@ api.route('/busstop')
 
 
 
-api.get('/', function (req, res) {
+api.get('/api', function (req, res) {
   res.send('API route working');
 });
 
@@ -40,6 +40,7 @@ api.get('/busstop/:whichStop', function (req, res) {
 
 api.get('/me', function (req, res) {
   res.json({success: true, message: 'You? You are beautiful. <3'});
+  console.log("This is sad, just for GitHub streak.");
 });
 
 api.post('/busstop/:whichStop', function (req, res) {
